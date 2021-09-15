@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2020, 8:43:57 PM
+    Author     : RedBoxz
+*/
+
+@font-face{
+  font-family: "sora";
+  src: url("../font/Sora-VariableFont_wght.ttf") format("truetype");
+  
+}
+body,h1,h2,h3,h4,h5,h6,p,div,span,h2,h3,input,button,select,option,span {font-family: "sora", sans-serif}
+
+.lbl{
+    color: #000; font-family: 'sora'; font-size: 18px;
+}
+
+.lbl1{
+    color: #000; font-family: 'sora'; font-size: 18px;text-align: left;
+}
+
+input[type="date"] {position: relative;}
+input[type="date"]:before {
+	position: absolute;left: 0px;top: 0px;
+	content: "Enter DOB";
+	color: #999;
+	width: 100%;line-height: 32px;
+}
+input[type="date"]:valid:before {display: none;}
+
+.tlbl{
+    color: #000; font-family: 'sora'; font-size: 15px;
+}
+.btn{
+    background:transparent;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 18px;
+/*    padding: 15px 25px;*/
+padding-left: 18px;
+padding-right: 18px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    outline:none;
+    position:relative;
+    top:0;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+     transition: all 0.2s ease-in-out 0s;
+}
+
+.blue{
+	background:#21409A;
+	color:#fff;
+	box-shadow: 0 3px 0 #21409A;
+}
+.blue:hover{
+	background:#56d7ed;	
+}
+
+.rounded{
+	border-radius:5px;	
+}
+.full-rounded{
+	border-radius:20em;	
+}
+.profile-img
+{
+ border-radius:60%;
+ border: 1px #000 solid;
+ height: 70px;
+ width: 70px;
+ margin-top:  10px;
+}
+
+.tlbltxt
+{
+    
+     text-align: center;
+     
+}
+
+
+.tlbltxtspan 
+{
+     color: #7F292B; 
+    font-family: 'sora';
+     font-size: 13px;   
+     font-weight: bold;
+}
+
+
+
+.tlbltxtfooterspan 
+{
+     color: #7F292B; 
+    font-family: 'sora';
+     font-size: 10px;   
+     font-weight: bold;
+   
+}
+
+.footer-img
+{
+    
+ height: 30px;
+ width: 30px;
+}
+
+.home-img
+{
+padding-top:15px;    
+ height: 150px;
+ width: 150px;
+}
+.home-img1
+{
+
+ height: 100px;
+ width: 100px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*chepatot*/

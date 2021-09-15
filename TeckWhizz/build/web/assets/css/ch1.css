@@ -1,0 +1,363 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 26, 2020, 1:08:04 AM
+    Author     : Win7
+*/
+
+@font-face{
+  font-family: "sora";
+  src: url("../font/Sora-VariableFont_wght.ttf") format("truetype");
+  
+}
+body,h1,p,div,span,h2,h3,input,button,select,option,div {font-family: "sora", sans-serif}
+
+.container {
+ 
+  //margin: 0 auto;
+
+}
+.row {
+  //width: 300px;
+  height: 70px;
+  border-bottom: solid 4px #06c;
+  box-sizing: border-box;
+  display: table;
+/*    padding-right: 40px;*/
+}
+.row.right-line {
+  border-right: solid 4px #06c;
+}
+.row.left-line {
+  border-left: solid 4px #06c;
+}
+.row .box {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .box.col-3 {
+  width: 200px;
+}
+
+
+.row .hd {
+  position: relative;
+  float: left;
+ // height: 60px;
+  box-sizing: border-box;
+}
+/*.row .hd.col-3 {
+  width: 200px;
+}*/
+
+
+
+
+
+
+
+.row .box:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -22px;
+  width: 40px;
+  height: 40px;
+  background: #80211F;
+  color: #000;
+  
+  font-family: sora;
+  vertical-align: middle;
+  //top:   20px;
+  border-radius: 50px;
+  font-size: 12px; 
+  text-align: center; 
+}
+.circle {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+ background-image:url('../..//CH1/CH1.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+/*  background:  #80211F;*/
+  margin-right: 20px;
+}
+
+
+
+
+.circle1 {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+background-image:url('../..//CH1/CH2.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+ 
+  margin-right: 20px;
+}
+
+
+
+.circle2 {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+background-image:url('../..//CH1/CH3.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+/*  background:  #E1A536;*/
+  margin-right: 20px;
+}
+
+
+
+.circle3 {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+background-image:url('../..//CH1/CH4.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+/*  background:  #C34F00;*/
+  margin-right: 20px;
+}
+
+
+
+
+.circle4 {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+background-image:url('../..//CH1/CH5.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+/*  background:  #9A1C88;*/
+  margin-right: 20px;
+}
+
+
+.circle5 {
+   bottom:  -37px;
+   left: -5px;
+  height: 40px;
+   width: 40px;
+    font-family: sora;
+  position: absolute;
+  text-align: left;
+  font-size: 8px;
+background-image:url('../..//CH1/CH6.png'); background-position: center;background-size: cover;
+  border-radius: 50%;
+  background:  #70B5E7;
+  margin-right: 20px;
+}
+
+
+
+
+.circle p {
+    width: 40px;
+    margin: 0 auto;
+    color: white;
+}
+
+.row .book {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .book.col-3 {
+  width: 200px;
+}
+.row .book:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -26px;
+  width: 40px;
+  height: 40px;
+   background-image:url('../..//CH1/B1.png'); background-position: center;background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+
+.row .video {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .video.col-3 {
+  width: 200px;
+}
+.row .video:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -26px;
+  width: 40px;
+  height: 40px;
+   background-image:url('../..//CH1/video.png'); background-position: center;background-size: cover;
+  border-radius: 10px;
+}
+
+
+.row .assginment {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .assginment.col-3 {
+  width: 200px;
+}
+.row .assginment:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -26px;
+  width: 40px;
+  height: 40px;
+   background-image:url('../..//CH1/assginment.png'); background-position: center;background-size: cover;
+  border-radius: 10px;
+}
+
+
+.row .game {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .game.col-3 {
+  width: 200px;
+}
+.row .game:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -26px;
+  width: 40px;
+  height: 40px;
+   background-image:url('../..//CH1/game.png'); background-position: center;background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+.row .notific {
+  position: relative;
+  float: left;
+  height: 60px;
+  box-sizing: border-box;
+}
+.row .notific.col-3 {
+  width: 200px;
+}
+.row .notific:after {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0%;
+  bottom: -26px;
+  width: 40px;
+  height: 40px;
+   background-image:url('../..//CH1/notific.png'); background-position: center;background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/*.row .box:enabled {
+  content: "";
+  z-index: 200;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  width: 40px;
+  height: 40px;
+ 
+  border-radius: 50px;
+}*/
+
+//tost
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
